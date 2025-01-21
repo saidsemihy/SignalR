@@ -34,5 +34,6 @@ app.MapControllers();
 
 
 app.MapHub<MyHub>("/myhub");
+app.MapHub<MessageHub>("/messagehub");
 
 app.Run();
